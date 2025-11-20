@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Poppins semi;
+    src: url(../resources/Fonts/Poppins-SemiBold.ttf);
+}
+
+.calendar{
+    background-color: #ffffff;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    min-width: 200px;
+    height: auto;
+    border-radius: 14px;
+    font-family: 'Poppins semi';
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin: 10px;
+height: 85%;
+margin: 0;
+align-items: center;
+justify-content: center;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 10px;
+text-align: left;
+}
+
+td{
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    height: 100px;
+}
+
+th {
+background-color: #f2f2f2;
+}
+
+.calendar-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+margin:  0 10px;
+padding: 15px;
+}
+
+.calendar-title {
+font-size: 24px;
+font-weight: bold;
+}
+
+.new-event {
+padding: 8px 16px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.event {
+background-color: #f0f0f0;
+border-radius: 4px;
+padding: 4px;
+margin-bottom: 4px;
+font-size: 12px;
+}
+
+.event-title {
+font-weight: bold;
+}

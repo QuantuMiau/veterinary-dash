@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Poppins semi;
+    src: url(../resources/Fonts/Poppins-SemiBold.ttf);
+}
+
+.other{
+    background-color: transparent;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    min-width: 200px;
+    height: auto;
+    flex-direction: row;
+}
+

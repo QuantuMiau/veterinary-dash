@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Poppins semi;
+    src: url(../resources/Fonts/Poppins-SemiBold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.other{
+    background-color: transparent;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    min-width: 200px;
+    height: auto;
+    flex-direction: row;
+}
+
+.cards{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 200px;
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 14px;
+}
+
+.card-top{
+    font-family: 'Poppins semi';
+    font-size: 1.5rem;
+    padding: 0 20px;
+
+}
+
+.card-middle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    font-family: 'Poppins semi';
+    font-size: 2rem;
+    align-items: center;
+}
+
+.middle{
+    display: flex;
+    height: auto;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pastel{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.pastel img{
+    height: 100%;
+    border-radius: 14px;
+}
+
+.products{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 14px;
+}
+
+.patients{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    min-width: 200px;
+    height: 100%;
+    border-radius: 14px;
+}
+
+.title {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: hsla(209, 44%, 19%, 0.50);
+    text-align: left;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: 'Poppins semi';
+    font-weight: 400;
+    color: white;
+}
+
+td {
+    padding: 8px;
+}

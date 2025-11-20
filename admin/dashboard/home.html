@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de control</title>
+    <script src="https://kit.fontawesome.com/03272e801c.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/patients.css">
+        <link rel="stylesheet" href="css/nav_content-side.css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="sidebar-top">
+                <div>
+                    <img class="icon" src="resources/Icons/sidebar/Logo.svg">
+                </div>
+                <div class="text-container d-none d-md-block">
+                    <h1>San Francisco de Asís</h1>
+                </div>
+                <div>
+                    <img class="arrow" src="resources/Icons/sidebar/arrow.svg">
+                </div>
+            </div>
+
+            <a href="home.html">
+                <li class="active"> <img class="sidebar-icon" src="resources/Icons/sidebar/home.svg"> <span>Inicio</span></li>
+            </a>
+
+
+            <a href="patients.html">
+                <li><img class="sidebar-icon" src="resources/Icons/sidebar/pets.svg"> <span>Pacientes</span></li>
+            </a>
+            
+            <a href="clients.html">
+                <li><img class="sidebar-icon" src="resources/Icons/sidebar/clients.svg"> <span>Clientes</span></li>
+            </a>
+
+            <a href="calendar.html">
+                <li><img class="sidebar-icon" src="resources/Icons/sidebar/calendar.svg"> <span>Calendario</span></li>
+            </a>
+            
+            <a href="earnings.html">
+                <li> <i class="fa-solid fa-user fa-xl sidebar-icon"></i> <span>Usuarios</span></li>
+            </a>
+            
+            <a href="expense.html">
+                <li><img class="sidebar-icon" src="resources/Icons/sidebar/expense.svg"> <span>Gastos</span></li>
+            </a>
+            
+            <a href="inventory.html">
+                <li><img class="sidebar-icon" src="resources/Icons/sidebar/inventory.svg"> <span>Inventario</span></li>
+            </a>
+            <a href="services.html">
+                <li><i class="fa-solid fa-bell-concierge fa-xl sidebar-icon"></i> <span>Servicios</span></li>
+            </a>
+        </ul>
+
+        <a href="../login.html">
+            <button class="btn-logout">
+                <img class="sidebar-icon" src="resources/Icons/sidebar/Logout.svg" alt=""> <span>Cerrar sesión</span>
+            </button>
+        </a>
+    </nav>
+
+    <div class="content-view">
+        <div class="content-wrapper">
+            <div class="other">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-top">
+                            <p>Total de pacientes</p>
+                        </div>
+                        <div class="card-middle">
+                            <p>300</p>
+                            <img src="resources/Icons/cat.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <p>Total de ventas de hoy</p>
+                        </div>
+                        <div class="card-middle">
+                            <p>5</p>
+                            <img src="resources/Icons/cat.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <p>Total de clientes</p>
+                        </div>
+                        <div class="card-middle">
+                            <p>59</p>
+                            <img src="resources/Icons/cat.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <div class="pastel">
+                        <img src="resources/Pastel.png" alt="">
+                    </div>
+                    
+                    <div class="products">
+                        <div class="patients-container">
+                            <div class="patients-title">Productos mas vendidos</div>
+                        <div class="responsive-table">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <td>Nombre</td>
+                                        <td>Vendidos</td>
+                                        <td>Inventario</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-group-divider">
+                                    <tr>
+                                        <td>Desparasitante Nextgard 5mg</td>
+                                        <td>120</td>
+                                        <td>30</td>
+                                        
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="patients">
+                    
+                    <div class="patients-container">
+                        <div class="patients-title">Pacientes</div>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <td>Nombre</td>
+                                    <td>Especie</td>
+                                    <td>Raza</td>
+                                    <td>Sexo</td>
+                                    <td>Dueño</td>
+                                    <td>Ultima visita</td>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                                <tr>
+                                    <td>Bichin</td>
+                                    <td>Gato</td>
+                                    <td>Comun americano</td>
+                                    <td>Macho</td>
+                                    <td>Mauricio Esperon</td>
+                                    <td>22-09-2024</td> 
+                                </tr>
+                            </tbody>
+                        </table>
+        
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="side-calendar">
+                <div class="side-header">
+                    <div class="arrows">
+                        <i class="fa-solid fa-chevron-left"></i><i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <p>11 Julio 2024</p>
+                </div>
+
+                <div class="notifications">
+                    <div class="notification-group">
+                        <div class="notification-time"><p>8:00 am</p></div>
+                        <ul>
+                            <li id="notification-surgery"> 
+                                <i class="fa-solid fa-heart-pulse fa-lg"></i> 
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Cirugía ~ gato
+                                    </div>
+                                    <div class="noti-bott">
+                                        8:15 ~ 9:30
+                                    </div>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="notification-group">
+                        <div class="notification-time"><p>10:00 am</p></div>
+                        <ul>
+                            <li id="notification-visit">
+                                <i class="fa-solid fa-user-doctor fa-lg"></i> 
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Consulta ~ perro
+                                    </div>
+                                    <div class="noti-bott">
+                                        9:45 ~ 10:00 am
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="notification-pet-groaming">
+                                <i class="fa-solid fa-scissors fa-lg"></i>
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Estética ~ gato
+                                    </div>
+                                    <div class="noti-bott">
+                                        10:15 ~ 10:45
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="notification-group">
+                        <div class="notification-time"><p>10:00 am</p></div>
+                        <ul>
+                            <li id="notification-visit">
+                                <i class="fa-solid fa-user-doctor fa-lg"></i> 
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Consulta ~ perro
+                                    </div>
+                                    <div class="noti-bott">
+                                        9:45 ~ 10:00 am
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="notification-pet-groaming">
+                                <i class="fa-solid fa-scissors fa-lg"></i>
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Estética ~ gato
+                                    </div>
+                                    <div class="noti-bott">
+                                        10:15 ~ 10:45
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="notification-group">
+                        <div class="notification-time"><p>8:00 am</p></div>
+                        <ul>
+                            <li id="notification-surgery"> 
+                                <i class="fa-solid fa-heart-pulse fa-lg"></i> 
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Cirugía ~ gato
+                                    </div>
+                                    <div class="noti-bott">
+                                        8:15 ~ 9:30
+                                    </div>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="notification-group">
+                        <div class="notification-time"><p>10:00 am</p></div>
+                        <ul>
+                            <li id="notification-visit">
+                                <i class="fa-solid fa-user-doctor fa-lg"></i> 
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Consulta ~ perro
+                                    </div>
+                                    <div class="noti-bott">
+                                        9:45 ~ 10:00 am
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="notification-pet-groaming">
+                                <i class="fa-solid fa-scissors fa-lg"></i>
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Estética ~ gato
+                                    </div>
+                                    <div class="noti-bott">
+                                        10:15 ~ 10:45
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="notification-group">
+                        <div class="notification-time"><p>10:00 am</p></div>
+                        <ul>
+                            <li id="notification-visit">
+                                <i class="fa-solid fa-user-doctor fa-lg"></i> 
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Consulta ~ perro
+                                    </div>
+                                    <div class="noti-bott">
+                                        9:45 ~ 10:00 am
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="notification-pet-groaming">
+                                <i class="fa-solid fa-scissors fa-lg"></i>
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Estética ~ gato
+                                    </div>
+                                    <div class="noti-bott">
+                                        10:15 ~ 10:45
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="notification-group">
+                        <div class="notification-time"><p>10:00 am</p></div>
+                        <ul>
+                            <li id="notification-visit">
+                                <i class="fa-solid fa-user-doctor fa-lg"></i> 
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Consulta ~ perro
+                                    </div>
+                                    <div class="noti-bott">
+                                        9:45 ~ 10:00 am
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="notification-pet-groaming">
+                                <i class="fa-solid fa-scissors fa-lg"></i>
+                                <div class="noti-info">
+                                    <div class="noti-top">
+                                        Estética ~ gato
+                                    </div>
+                                    <div class="noti-bott">
+                                        10:15 ~ 10:45
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="js/dash.js"></script>
+</body>
+</html>
+
